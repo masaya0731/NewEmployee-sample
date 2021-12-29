@@ -1,2 +1,3 @@
 # README
 * sample
+* サンプル
