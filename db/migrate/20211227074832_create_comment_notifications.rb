@@ -1,7 +1,6 @@
 class CreateCommentNotifications < ActiveRecord::Migration[5.2]
   def change
     create_table :comment_notifications do |t|
-
       t.integer :visiter_id, null: false
       t.integer :visited_id, null: false
       t.integer :post_id

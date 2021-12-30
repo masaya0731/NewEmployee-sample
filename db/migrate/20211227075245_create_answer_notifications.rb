@@ -1,7 +1,6 @@
 class CreateAnswerNotifications < ActiveRecord::Migration[5.2]
   def change
     create_table :answer_notifications do |t|
-      
       t.integer :visiter_id, null: false
       t.integer :visited_id, null: false
       t.integer :question_id

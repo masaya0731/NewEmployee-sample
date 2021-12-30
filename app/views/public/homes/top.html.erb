@@ -2,3 +2,5 @@
 <% @author.each do |author| %>
   <div><%= author.name %></div>
 <% end %>
+
+<%= link_to "新規投稿", new_public_post_path, class: "btn btn-success" %>

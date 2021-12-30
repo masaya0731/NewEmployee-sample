@@ -26,9 +26,10 @@
 
 body {
   position: relative;
+  background-color: gray;
 }
 
-.container {
+.navbar {
   z-index: 10;
   background-color: white;
   height: 100px;
@@ -43,4 +44,8 @@ body {
   height: 600px;
   background-image: url(main-visual.jpeg);
   background-size: cover;
+}
+
+.new-post {
+  padding-top: 200px;
 }
